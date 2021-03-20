@@ -68,4 +68,4 @@ public class MainActivity extends AppCompatActivity {
                 kotakVideo.start();
             }
         }
-});
+\\});
