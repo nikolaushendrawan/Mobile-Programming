@@ -1,0 +1,2 @@
+Aplikasi ketika dijalankan akan memunculkan halaman kosong , lalu untuk mengisi halaman tersebut dengan klik tombol button yang ada di pojok kanan bawah dengan icon "+" ketika tombol tersebut di klik kita dapat menginput data yang akan ditampilkan pada halaman sebelumnya.
+Data yang sudah dibuat dapat di swipe ke kanan untuk edit dan di swipe ke kiri untuk delete.
