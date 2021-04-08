@@ -1,0 +1,2 @@
+Pada file a menunujukan bahwa aplikasi tersebut dalam memilih storage yang akan dipakai untuk melakukan penyimpanan , membuka dan dan delete.Penyimpanan yagn ditawarkan yaitu 	internal, eksternal dan temporary
+pada file b menunjukan bahwa aplikasi tersebut dapat melakukan penyimpanan data dalam bentuk angka dan mengganti warna pada background angka tersebut sesuai dengan button yang dipilih.Ketika aplikasi ditutup dan dibuka kembali angka yang ada pada layar akan sama saat aplikasi sebelum ditutup
