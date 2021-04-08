@@ -2,6 +2,7 @@ package umn.ac.utsnew;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -13,6 +14,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
@@ -31,6 +33,18 @@ import java.util.ArrayList;
 
 public class Activity2 extends AppCompatActivity {
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Welcome").setMessage("Nikolaus Hendrawan" + "\n" + "00000031190").setPositiveButton("Close",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                }).create().show();
+    }
     public static final int REQUEST_CODE = 1;
     static ArrayList<MusicFile> musicFiles;
     @Override
