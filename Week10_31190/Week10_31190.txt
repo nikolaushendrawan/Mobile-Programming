@@ -1,0 +1,4 @@
+a.pada aplikasi ini menunjukan bahwa adanya asynctask ketika kita klik tombol "mulai task"yaitu ketika menampilkan progress bar yang mewakilkan int dan output yang dihasilkan mewakilkan object
+b.Pada aplikasi ini hampir mirip seperti aplikasi a tetapi diimplementasikan menggunakan asynctaskloader dan loadermanager
+c.Ketika menjalankan aplikasi tanpa menggunakan Asynctask aplikasi akan error setelah di klik 3 kali , lalu setelah diberikan asynctask tidak terdapat error setelah diubah.
+Ketika tombol "tampilkan waktu" di klik akan menampilkan date dan time 
